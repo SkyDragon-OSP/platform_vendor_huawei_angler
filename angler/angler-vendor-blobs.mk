@@ -15,6 +15,7 @@
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
+    vendor/huawei/angler/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/huawei/angler/proprietary/etc/diag/Angler_Radio-general.cfg:system/etc/diag/Angler_Radio-general.cfg \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
