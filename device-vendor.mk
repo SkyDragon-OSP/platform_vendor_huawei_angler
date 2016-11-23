@@ -16,6 +16,7 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
+	CameraNX \
     HwMMITest \
     HwSarControlService \
     ims \
@@ -25,7 +26,9 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
-    qcrilhook
+    qcrilhook \
+    com.google.android.camera.experimental2016.jar \
+    com.google.widevine.software.drm.jar 
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
