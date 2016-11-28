@@ -14,26 +14,15 @@
 
 PRODUCT_COPY_FILES += \
     vendor/huawei/angler/proprietary/bin/ssr_setup:system/bin/ssr_setup \
-    vendor/huawei/angler/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
-    vendor/huawei/angler/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/huawei/angler/proprietary/etc/diag/Angler_Radio-general.cfg:system/etc/diag/Angler_Radio-general.cfg \
     vendor/huawei/angler/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
     vendor/huawei/angler/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml \
-    vendor/huawei/angler/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.experimental2016.xml \
+    vendor/huawei/angler/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:system/etc/permissions/com.google.android.camera.xml \
     vendor/huawei/angler/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/huawei/angler/proprietary/framework/com.google.android.camera.experimental2016.jar:system/framework/com.google.android.camera.experimental2016.jar \
-    vendor/huawei/angler/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
-    vendor/huawei/angler/proprietary/lib/hw/audio.primary.msm8994.so:system/lib/hw/audio.primary.msm8994.so \
     vendor/huawei/angler/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/huawei/angler/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
     vendor/huawei/angler/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
-    vendor/huawei/angler/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/huawei/angler/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/huawei/angler/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    vendor/huawei/angler/proprietary/lib64/hw/audio.primary.msm8994.so:system/lib64/hw/audio.primary.msm8994.so \
-    vendor/huawei/angler/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/huawei/angler/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
+    vendor/huawei/angler/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/huawei/angler/proprietary/lib64/libManufacture.so:system/lib64/libManufacture.so \
-    vendor/huawei/angler/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so
+    vendor/huawei/angler/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so

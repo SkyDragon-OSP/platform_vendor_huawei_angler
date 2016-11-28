@@ -12,42 +12,46 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
-
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
 	CameraNX \
-    HwMMITest \
-    HwSarControlService \
     ims \
-    SetupSmartDeviceOverlay \
-    TimeService \
     Tycho 
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
-    qcrilhook \
     com.google.android.camera.experimental2016.jar \
-    com.google.widevine.software.drm.jar 
+    com.google.widevine.software.drm.jar \
+    qcrilhook
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    CallStatistics \
     CNEService \
-    ConnMO \
-    DCMO \
-    DiagMon \
-    DMService \
-    GCS \
-    HiddenMenu \
     HotwordEnrollment \
     qcrilmsgtunnel \
     SprintDM
 
-# Symlinks
+# Symlinks Binaries
+PRODUCT_PACKAGES += \
+    ims_rtp_daemon \
+    imscmservice \
+    imsdatadaemon \
+    imsqmidaemon
+
+# Symlinks Libraries
 PRODUCT_PACKAGES += \
     libimsmedia_jni.so \
     libimscamera_jni.so \
     libdmengine.so \
     libdmjavaplugin.so \
     libManufacture.so
+
+# Symlinks Config
+PRODUCT_PACKAGES += \
+    dsi_config.xml \
+    flp.conf \
+    izat.conf \
+    netmgr_config.xml \
+    pp_calib_data_SAMSUNG_S6E3HA3X01_5P7_1440P_CMD_DUAL0.xml \
+    profile.txt \
+    sap.conf
