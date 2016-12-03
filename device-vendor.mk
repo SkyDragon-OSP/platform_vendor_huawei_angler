@@ -12,10 +12,16 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+$(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
+
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
-	CameraNX \
+    CameraNX \
+    HwMMITest \
+    HwSarControlService \
     ims \
+    SetupSmartDeviceOverlay \
+    TimeService \
     Tycho 
 
 # Prebuilt jars
@@ -26,7 +32,14 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
+    CallStatistics \
     CNEService \
+    ConnMO \
+    DCMO \
+    DiagMon \
+    DMService \
+    GCS \
+    HiddenMenu \
     HotwordEnrollment \
     qcrilmsgtunnel \
     SprintDM
