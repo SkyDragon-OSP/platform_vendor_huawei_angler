@@ -17,12 +17,8 @@ $(call inherit-product, vendor/huawei/angler/angler-vendor-blobs.mk)
 # Prebuilt APKs
 PRODUCT_PACKAGES += \
     CameraNX \
-    HwMMITest \
-    HwSarControlService \
     ims \
-    SetupSmartDeviceOverlay \
-    TimeService \
-    Tycho 
+    Tycho
 
 # Prebuilt jars
 PRODUCT_PACKAGES += \
@@ -32,14 +28,7 @@ PRODUCT_PACKAGES += \
 
 # Prebuilt privileged APKs
 PRODUCT_PACKAGES += \
-    CallStatistics \
     CNEService \
-    ConnMO \
-    DCMO \
-    DiagMon \
-    DMService \
-    GCS \
-    HiddenMenu \
     HotwordEnrollment \
     qcrilmsgtunnel \
     SprintDM
